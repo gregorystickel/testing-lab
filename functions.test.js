@@ -18,19 +18,19 @@ describe('Test greeting', () => {
 describe('Math Functions', () => {
 
     test('Does add 1,2 equal 3', () => {
-        expect(add(1,2)).toEqual(3)
+        expect(add(1,2)).toBe(3)
     })
     test('Does add 5,9 equal 14', () => {
-        expect(add(5,9)).toEqual(14)
+        expect(add(5,9)).toBe(14)
     })
 
 
 
     test('Does multiply 1,2 equal 2', () => {
-        expect(multiply(1,2)).toEqual(2)
+        expect(multiply(1,2)).toBe(2)
     })
     test('Does multiply 5,9 equal 45', () => {
-        expect(multiply(5,9)).toEqual(45)
+        expect(multiply(5,9)).toBe(45)
     })
 
 
